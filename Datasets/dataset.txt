@@ -1,3 +1,7 @@
+Each line is a JSON object, the entire file is not JSON array.
+read line-by-line and convert each-line with python's json module
+
+
 Sample of 2500 processed stories with only CoreNLP parse and Petrarch Output
 https://utdallas.box.com/s/fr69sgvq2c1aalkgsvdnh99528pat8uz
 
