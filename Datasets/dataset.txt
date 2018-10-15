@@ -1,0 +1,10 @@
+Sample of 2500 processed stories with only CoreNLP parse and Petrarch Output
+https://utdallas.box.com/s/fr69sgvq2c1aalkgsvdnh99528pat8uz
+
+For example single record can be found in file "single_sample_processed_stories.json"
+
+Sample of 2500 processed stories with only CoreNLP parse, Universal Dependency parse and Petrarch Output
+"parse_sentence" contains UD-parse, not corenlp parse.
+https://utdallas.box.com/s/xtc39b64rl08lrhjg85ypkkuyhbgpy6b
+
+For example single record can be found in file "single_sample_processed_stories_ud.json"

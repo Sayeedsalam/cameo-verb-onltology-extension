@@ -1,0 +1,288 @@
+{
+  "_id": {
+    "$oid": "59f7ffeb583dca26c72947ea"
+  },
+  "corenlp": {
+    "date_line": "Mon, 23 Oct 2017 15:08:09 +0000",
+    "type": "story",
+    "head_line": "Buhari Orders Immediate Disengagement of Ex-Pension’s Boss, Maina, Queries Head of Service",
+    "mongo_id": "59f7fea6de7923402a8a5d56",
+    "sentences": [
+      {
+        "parse_sentence": "(ROOT (FRAG (S (PP (IN BY) (NP (NP (NNP OBUTE) (NNP JAMES) (NNP President) (NNP Muhammadu) (NNP Buhari)) (PP (IN on) (NP (NNP Monday) (NNP October) (CD 23))))) (, ,) (VP (VBD ordered) (NP (NP (DT the) (JJ immediate) (NN disengagement)) (PP (IN of) (NP (NP (DT the) (JJ former) (NNP Chairman)) (PP (IN of) (NP (NP (DT the) (NNP Presidential) (NNP Task) (NNP Force)) (PP (IN on) (NP (NNP Pension) (NNS Reforms)))))))))) (, ,) (NP (NP (NNP Mr.) (NNP Abdulrasheed) (NNP Maina)) (SBAR (WHNP (WP who)) (S (VP (VBD was) (ADVP (RB recently)) (VP (VBN recalled)))))) (. .)))",
+        "sentiment": -1,
+        "sentence": "BY OBUTE JAMES  President Muhammadu Buhari on Monday October 23, ordered the immediate disengagement of the former Chairman of the Presidential Task Force on Pension Reforms, Mr. Abdulrasheed Maina who was recently recalled.",
+        "token": "BY,OBUTE,JAMES,President,Muhammadu,Buhari,on,Monday,October,23,,,ordered,the,immediate,disengagement,of,the,former,Chairman,of,the,Presidential,Task,Force,on,Pension,Reforms,,,Mr.,Abdulrasheed,Maina,who,was,recently,recalled,.",
+        "lemma": "by,OBUTE,JAMES,President,Muhammadu,Buhari,on,Monday,October,23,,,order,the,immediate,disengagement,of,the,former,Chairman,of,the,Presidential,Task,Force,on,Pension,reform,,,Mr.,Abdulrasheed,Maina,who,be,recently,recall,.",
+        "sentence_id": 1,
+        "relation": "",
+        "ner": "(PERSON,Muhammadu Buhari|Abdulrasheed Maina),(ORGANIZATION,Presidential Task Force on Pension Reforms),(DATE,Monday October 23|recently)",
+        "dependency_tree": "-\u003e Maina/NNP (root)\n  -\u003e ordered/VBD (dep)\n    -\u003e Buhari/NNP (nmod:by)\n      -\u003e BY/IN (case)\n      -\u003e OBUTE/NNP (compound)\n      -\u003e JAMES/NNP (compound)\n      -\u003e President/NNP (compound)\n      -\u003e Muhammadu/NNP (compound)\n      -\u003e October/NNP (nmod:on)\n        -\u003e on/IN (case)\n        -\u003e Monday/NNP (compound)\n        -\u003e 23/CD (nummod)\n    -\u003e ,/, (punct)\n    -\u003e disengagement/NN (dobj)\n      -\u003e the/DT (det)\n      -\u003e immediate/JJ (amod)\n      -\u003e Chairman/NNP (nmod:of)\n        -\u003e of/IN (case)\n        -\u003e the/DT (det)\n        -\u003e former/JJ (amod)\n        -\u003e Force/NNP (nmod:of)\n          -\u003e of/IN (case)\n          -\u003e the/DT (det)\n          -\u003e Presidential/NNP (compound)\n          -\u003e Task/NNP (compound)\n          -\u003e Reforms/NNS (nmod:on)\n            -\u003e on/IN (case)\n            -\u003e Pension/NNP (compound)\n  -\u003e ,/, (punct)\n  -\u003e Mr./NNP (compound)\n  -\u003e Abdulrasheed/NNP (compound)\n  -\u003e recalled/VBN (acl:relcl)\n    -\u003e who/WP (nsubjpass)\n    -\u003e was/VBD (auxpass)\n    -\u003e recently/RB (advmod)\n  -\u003e ./. (punct)\n"
+      },
+      {
+        "parse_sentence": "(ROOT (S (NP (NP (NNP Maina)) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (PP (IN on) (NP (NP (DT the) (JJ wanted) (NN list)) (PP (IN of) (NP (NP (DT the) (NNP Economic)) (CC and) (NP (NNP Financial) (NNP Crimes) (NN commission)))))))))) (, ,) (NP (NN EFCC)) (VP (VBD was) (ADVP (RB recently)) (VP (VBN recalled) (CC and) (VP (VBN deployed) (PP (TO to) (NP (NP (DT the) (NNP Ministry)) (PP (IN of) (NP (NNP Interior)))))))) (. .)))",
+        "sentiment": -1,
+        "sentence": "Maina who is on the wanted list of the Economic and Financial Crimes commission, EFCC was recently recalled and deployed to the Ministry of Interior.",
+        "token": "Maina,who,is,on,the,wanted,list,of,the,Economic,and,Financial,Crimes,commission,,,EFCC,was,recently,recalled,and,deployed,to,the,Ministry,of,Interior,.",
+        "lemma": "Maina,who,be,on,the,wanted,list,of,the,Economic,and,Financial,Crimes,commission,,,efcc,be,recently,recall,and,deploy,to,the,Ministry,of,Interior,.",
+        "sentence_id": 2,
+        "relation": "",
+        "ner": "(PERSON,Maina),(DATE,recently),(ORGANIZATION,Economic and Financial Crimes|EFCC|Ministry of Interior)",
+        "dependency_tree": "-\u003e recalled/VBN (root)\n  -\u003e Maina/NNP (nsubjpass)\n    -\u003e list/NN (acl:relcl)\n      -\u003e who/WP (nsubj)\n      -\u003e is/VBZ (cop)\n      -\u003e on/IN (case)\n      -\u003e the/DT (det)\n      -\u003e wanted/JJ (amod)\n      -\u003e Economic/NNP (nmod:of)\n        -\u003e of/IN (case)\n        -\u003e the/DT (det)\n        -\u003e and/CC (cc)\n        -\u003e commission/NN (conj:and)\n          -\u003e Financial/NNP (compound)\n          -\u003e Crimes/NNP (compound)\n      -\u003e commission/NN (nmod:of)\n  -\u003e ,/, (punct)\n  -\u003e EFCC/NN (nsubjpass)\n  -\u003e was/VBD (auxpass)\n  -\u003e recently/RB (advmod)\n  -\u003e and/CC (cc)\n  -\u003e deployed/VBN (conj:and)\n    -\u003e EFCC/NN (nsubjpass)\n    -\u003e Ministry/NNP (nmod:to)\n      -\u003e to/TO (case)\n      -\u003e the/DT (det)\n      -\u003e Interior/NNP (nmod:of)\n        -\u003e of/IN (case)\n  -\u003e ./. (punct)\n"
+      },
+      {
+        "parse_sentence": "(ROOT (S (NP (NP (NP (DT The) (JJ Special) (NNP Adviser)) (PP (TO to) (NP (NP (DT the) (NNP President)) (PP (IN on) (NP (NNP Media) (CC and) (NNP Publicity)))))) (, ,) (NP (NNP Mr.) (NNP Femi) (NNP Adesina)) (, ,)) (VP (VBD disclosed) (NP (DT this)) (PP (IN in) (NP (DT a) (NN statement))) (PP (IN on) (NP (NNP Monday)))) (. .)))",
+        "sentiment": -1,
+        "sentence": "The Special Adviser to the President on Media and Publicity, Mr. Femi Adesina, disclosed this in a statement on Monday.",
+        "token": "The,Special,Adviser,to,the,President,on,Media,and,Publicity,,,Mr.,Femi,Adesina,,,disclosed,this,in,a,statement,on,Monday,.",
+        "lemma": "the,special,Adviser,to,the,President,on,Media,and,Publicity,,,Mr.,Femi,Adesina,,,disclose,this,in,a,statement,on,Monday,.",
+        "sentence_id": 3,
+        "relation": "",
+        "ner": "(PERSON,Femi Adesina),(DATE,Monday)",
+        "dependency_tree": "-\u003e disclosed/VBD (root)\n  -\u003e Adviser/NNP (nsubj)\n    -\u003e The/DT (det)\n    -\u003e Special/JJ (amod)\n    -\u003e President/NNP (nmod:to)\n      -\u003e to/TO (case)\n      -\u003e the/DT (det)\n      -\u003e Media/NNP (nmod:on)\n        -\u003e on/IN (case)\n        -\u003e and/CC (cc)\n        -\u003e Publicity/NNP (conj:and)\n      -\u003e Publicity/NNP (nmod:on)\n    -\u003e ,/, (punct)\n    -\u003e Adesina/NNP (appos)\n      -\u003e Mr./NNP (compound)\n      -\u003e Femi/NNP (compound)\n    -\u003e ,/, (punct)\n  -\u003e this/DT (dobj)\n  -\u003e statement/NN (nmod:in)\n    -\u003e in/IN (case)\n    -\u003e a/DT (det)\n  -\u003e Monday/NNP (nmod:on)\n    -\u003e on/IN (case)\n  -\u003e ./. (punct)\n"
+      },
+      {
+        "parse_sentence": "(ROOT (S (NP (NNP Adesina)) (VP (VBD said) (SBAR (S (NP (NNP Buhari)) (VP (VBZ has) (ADVP (RB also)) (VP (VBN directed) (NP (NP (DT the) (NNP Head)) (PP (IN of) (NP (NP (NNP Civil) (NNP Service)) (PP (IN of) (NP (NP (DT the) (NNP Federation)) (, ,) (NP (NNP Mrs.) (NNP Winifred) (NNP Oyo-Ita)) (, ,)))))) (S (VP (TO to) (VP (VB submit) (NP (NP (DT a) (NN report)) (PP (IN on) (NP (NP (DT the) (NNS circumstances)) (VP (VBG surrounding) (NP (NP (NNP Maina) (POS 's)) (NN reinstatement)) (PP (TO to) (NP (NP (PRP$ his) (NNP Chief)) (PP (IN of) (NP (NP (NNP Staff)) (, ,) (NP (NNP Abba) (NNP Kyari)))) (, ,))) (PP (IN before) (NP (NP (DT the) (NN close)) (PP (IN of) (NP (NN work))))))))))))))))) (. .)))",
+        "sentiment": -1,
+        "sentence": "Adesina said Buhari has also directed the Head of Civil Service of the Federation, Mrs. Winifred Oyo-Ita, to submit a report on the circumstances surrounding Maina’s reinstatement to his Chief of Staff, Abba Kyari, before the close of work.",
+        "token": "Adesina,said,Buhari,has,also,directed,the,Head,of,Civil,Service,of,the,Federation,,,Mrs.,Winifred,Oyo-Ita,,,to,submit,a,report,on,the,circumstances,surrounding,Maina,'s,reinstatement,to,his,Chief,of,Staff,,,Abba,Kyari,,,before,the,close,of,work,.",
+        "lemma": "Adesina,say,Buhari,have,also,direct,the,Head,of,Civil,Service,of,the,Federation,,,Mrs.,Winifred,Oyo-Ita,,,to,submit,a,report,on,the,circumstance,surround,Maina,'s,reinstatement,to,he,Chief,of,Staff,,,Abba,Kyari,,,before,the,close,of,work,.",
+        "sentence_id": 4,
+        "relation": "",
+        "ner": "(PERSON,Adesina|Buhari|Winifred Oyo-Ita|Maina|Abba Kyari),(ORGANIZATION,Head of Civil Service of the Federation)",
+        "dependency_tree": "-\u003e said/VBD (root)\n  -\u003e Adesina/NNP (nsubj)\n  -\u003e directed/VBN (ccomp)\n    -\u003e Buhari/NNP (nsubj)\n    -\u003e has/VBZ (aux)\n    -\u003e also/RB (advmod)\n    -\u003e Head/NNP (dobj)\n      -\u003e the/DT (det)\n      -\u003e Service/NNP (nmod:of)\n        -\u003e of/IN (case)\n        -\u003e Civil/NNP (compound)\n        -\u003e Federation/NNP (nmod:of)\n          -\u003e of/IN (case)\n          -\u003e the/DT (det)\n          -\u003e ,/, (punct)\n          -\u003e Oyo-Ita/NNP (appos)\n            -\u003e Mrs./NNP (compound)\n            -\u003e Winifred/NNP (compound)\n          -\u003e ,/, (punct)\n    -\u003e submit/VB (advcl)\n      -\u003e to/TO (mark)\n      -\u003e report/NN (dobj)\n        -\u003e a/DT (det)\n        -\u003e circumstances/NNS (nmod:on)\n          -\u003e on/IN (case)\n          -\u003e the/DT (det)\n          -\u003e surrounding/VBG (acl)\n            -\u003e reinstatement/NN (dobj)\n              -\u003e Maina/NNP (nmod:poss)\n                -\u003e 's/POS (case)\n            -\u003e Chief/NNP (nmod:to)\n              -\u003e to/TO (case)\n              -\u003e his/PRP$ (nmod:poss)\n              -\u003e Staff/NNP (nmod:of)\n                -\u003e of/IN (case)\n                -\u003e ,/, (punct)\n                -\u003e Kyari/NNP (appos)\n                  -\u003e Abba/NNP (compound)\n              -\u003e ,/, (punct)\n            -\u003e close/NN (nmod:before)\n              -\u003e before/IN (case)\n              -\u003e the/DT (det)\n              -\u003e work/NN (nmod:of)\n                -\u003e of/IN (case)\n  -\u003e ./. (punct)\n"
+      },
+      {
+        "parse_sentence": "(ROOT (S (NP (DT The) (NN statement)) (VP (VBD read) (, ,) (S (`` ``) (NP (NNP President) (NNP Muhammadu) (NNP Buhari)) (VP (VBZ has) (VP (VBN directed) (NP (DT the) (JJ immediate) (NN disengagement)) (PP (IN from) (NP (NP (NN service)) (PP (IN of) (NP (NP (NNP Mr) (NNP Abdullahi) (NNP Abdulrasheed) (NNP Maina)) (, ,) (NP (NP (JJ former) (NN chairman)) (PP (IN of) (NP (NP (DT the) (NNP Presidential) (NNP Task) (NNP Force)) (PP (IN on) (NP (NNP Pension) (NNS Reforms)))))))))))))) (. .)))",
+        "sentiment": -1,
+        "sentence": "The statement read, “President Muhammadu Buhari has directed the immediate disengagement from service of Mr Abdullahi Abdulrasheed Maina, former chairman of the Presidential Task Force on Pension Reforms.",
+        "token": "The,statement,read,,,``,President,Muhammadu,Buhari,has,directed,the,immediate,disengagement,from,service,of,Mr,Abdullahi,Abdulrasheed,Maina,,,former,chairman,of,the,Presidential,Task,Force,on,Pension,Reforms,.",
+        "lemma": "the,statement,read,,,``,President,Muhammadu,Buhari,have,direct,the,immediate,disengagement,from,service,of,Mr,Abdullahi,Abdulrasheed,Maina,,,former,chairman,of,the,Presidential,Task,Force,on,Pension,reform,.",
+        "sentence_id": 5,
+        "relation": "",
+        "ner": "(PERSON,Muhammadu Buhari|Abdullahi Abdulrasheed Maina),(ORGANIZATION,Presidential Task Force)",
+        "dependency_tree": "-\u003e read/VBD (root)\n  -\u003e statement/NN (nsubj)\n    -\u003e The/DT (det)\n  -\u003e ,/, (punct)\n  -\u003e directed/VBN (ccomp)\n    -\u003e ``/`` (punct)\n    -\u003e Buhari/NNP (nsubj)\n      -\u003e President/NNP (compound)\n      -\u003e Muhammadu/NNP (compound)\n    -\u003e has/VBZ (aux)\n    -\u003e disengagement/NN (dobj)\n      -\u003e the/DT (det)\n      -\u003e immediate/JJ (amod)\n    -\u003e service/NN (nmod:from)\n      -\u003e from/IN (case)\n      -\u003e Maina/NNP (nmod:of)\n        -\u003e of/IN (case)\n        -\u003e Mr/NNP (compound)\n        -\u003e Abdullahi/NNP (compound)\n        -\u003e Abdulrasheed/NNP (compound)\n        -\u003e ,/, (punct)\n        -\u003e chairman/NN (appos)\n          -\u003e former/JJ (amod)\n          -\u003e Force/NNP (nmod:of)\n            -\u003e of/IN (case)\n            -\u003e the/DT (det)\n            -\u003e Presidential/NNP (compound)\n            -\u003e Task/NNP (compound)\n            -\u003e Reforms/NNS (nmod:on)\n              -\u003e on/IN (case)\n              -\u003e Pension/NNP (compound)\n  -\u003e ./. (punct)\n"
+      },
+      {
+        "parse_sentence": "(ROOT (S (`` ``) (PP (IN In) (NP (NP (DT a) (NN memo)) (PP (TO to) (NP (NP (DT the) (NNP Head)) (PP (IN of) (NP (NP (DT the) (NNP Civil) (NNP Service)) (PP (IN of) (NP (DT the) (NNP Federation))))))))) (, ,) (NP (DT the) (NNP President)) (ADVP (RB equally)) (VP (VBD demanded) (NP (NP (NP (DT a) (JJ full) (NN report)) (PP (IN of) (NP (NP (DT the) (NNS circumstances)) (PP (IN of) (NP (NP (NNP Maina) (POS 's)) (NN recall)))))) (CC and) (VP (VBG posting) (PP (TO to) (NP (NP (DT the) (NNP Ministry)) (PP (IN of) (NP (NNP Interior)))))))) (. .)))",
+        "sentiment": -1,
+        "sentence": "“In a memo to the Head of the Civil Service of the Federation, the President equally demanded a full report of the circumstances of Maina’s recall and posting to the Ministry of Interior.",
+        "token": "``,In,a,memo,to,the,Head,of,the,Civil,Service,of,the,Federation,,,the,President,equally,demanded,a,full,report,of,the,circumstances,of,Maina,'s,recall,and,posting,to,the,Ministry,of,Interior,.",
+        "lemma": "``,in,a,memo,to,the,Head,of,the,Civil,Service,of,the,Federation,,,the,President,equally,demand,a,full,report,of,the,circumstance,of,Maina,'s,recall,and,post,to,the,Ministry,of,Interior,.",
+        "sentence_id": 6,
+        "relation": "",
+        "ner": "(PERSON,Maina),(ORGANIZATION,Civil Service of the Federation|Ministry of Interior)",
+        "dependency_tree": "-\u003e demanded/VBD (root)\n  -\u003e ``/`` (punct)\n  -\u003e memo/NN (nmod:in)\n    -\u003e In/IN (case)\n    -\u003e a/DT (det)\n    -\u003e Head/NNP (nmod:to)\n      -\u003e to/TO (case)\n      -\u003e the/DT (det)\n      -\u003e Service/NNP (nmod:of)\n        -\u003e of/IN (case)\n        -\u003e the/DT (det)\n        -\u003e Civil/NNP (compound)\n        -\u003e Federation/NNP (nmod:of)\n          -\u003e of/IN (case)\n          -\u003e the/DT (det)\n  -\u003e ,/, (punct)\n  -\u003e President/NNP (nsubj)\n    -\u003e the/DT (det)\n  -\u003e equally/RB (advmod)\n  -\u003e report/NN (dobj)\n    -\u003e a/DT (det)\n    -\u003e full/JJ (amod)\n    -\u003e circumstances/NNS (nmod:of)\n      -\u003e of/IN (case)\n      -\u003e the/DT (det)\n      -\u003e recall/NN (nmod:of)\n        -\u003e of/IN (case)\n        -\u003e Maina/NNP (nmod:poss)\n          -\u003e 's/POS (case)\n    -\u003e and/CC (cc)\n    -\u003e posting/VBG (acl)\n      -\u003e Ministry/NNP (nmod:to)\n        -\u003e to/TO (case)\n        -\u003e the/DT (det)\n        -\u003e Interior/NNP (nmod:of)\n          -\u003e of/IN (case)\n  -\u003e ./. (punct)\n"
+      },
+      {
+        "parse_sentence": "(ROOT (FRAG (`` ``) (S (NP (DT The) (NN report)) (VP (VBZ is) (S (VP (TO to) (VP (VB be) (VP (VBN submitted) (PP (TO to) (NP (NP (DT the) (NN office)) (PP (IN of) (NP (NP (DT the) (NNP Chief)) (PP (IN of) (NP (NNP Staff))))))) (PP (TO to) (NP (NP (DT the) (NNP President)) (, ,) (NP (NNP Mallam) (NNP Abba) (NNP Kyari)) (, ,))) (PP (IN before) (NP (NP (DT the) (NN end)) (PP (IN of) (NP (NN work))))) (NP (NN today)))))))) (, ,) (NP (NNP Monday) (, ,) (NNP October) (CD 23) (, ,) (CD 2017)) (. .) ('' '')))",
+        "sentiment": -1,
+        "sentence": "“The report is to be submitted to the office of the Chief of Staff to the President, Mallam Abba Kyari, before the end of work today, Monday, October 23, 2017.”",
+        "token": "``,The,report,is,to,be,submitted,to,the,office,of,the,Chief,of,Staff,to,the,President,,,Mallam,Abba,Kyari,,,before,the,end,of,work,today,,,Monday,,,October,23,,,2017,.,''",
+        "lemma": "``,the,report,be,to,be,submit,to,the,office,of,the,Chief,of,Staff,to,the,President,,,Mallam,Abba,Kyari,,,before,the,end,of,work,today,,,Monday,,,October,23,,,2017,.,''",
+        "sentence_id": 7,
+        "relation": "",
+        "ner": "(PERSON,Mallam Abba Kyari),(DATE,today  Monday  October 23  2017)",
+        "dependency_tree": "-\u003e October/NNP (root)\n  -\u003e ``/`` (punct)\n  -\u003e is/VBZ (dep)\n    -\u003e report/NN (nsubj)\n      -\u003e The/DT (det)\n    -\u003e submitted/VBN (xcomp)\n      -\u003e to/TO (mark)\n      -\u003e be/VB (auxpass)\n      -\u003e office/NN (nmod:to)\n        -\u003e to/TO (case)\n        -\u003e the/DT (det)\n        -\u003e Chief/NNP (nmod:of)\n          -\u003e of/IN (case)\n          -\u003e the/DT (det)\n          -\u003e Staff/NNP (nmod:of)\n            -\u003e of/IN (case)\n      -\u003e President/NNP (nmod:to)\n        -\u003e to/TO (case)\n        -\u003e the/DT (det)\n        -\u003e ,/, (punct)\n        -\u003e Kyari/NNP (appos)\n          -\u003e Mallam/NNP (compound)\n          -\u003e Abba/NNP (compound)\n        -\u003e ,/, (punct)\n      -\u003e end/NN (nmod:before)\n        -\u003e before/IN (case)\n        -\u003e the/DT (det)\n        -\u003e work/NN (nmod:of)\n          -\u003e of/IN (case)\n      -\u003e today/NN (nmod:tmod)\n  -\u003e ,/, (punct)\n  -\u003e Monday/NNP (compound)\n  -\u003e ,/, (punct)\n  -\u003e 23/CD (nummod)\n  -\u003e ,/, (punct)\n  -\u003e 2017/CD (nummod)\n  -\u003e ./. (punct)\n  -\u003e ''/'' (punct)\n"
+      },
+      {
+        "parse_sentence": "(ROOT (. .))",
+        "sentiment": -1,
+        "sentence": ".",
+        "token": ".",
+        "lemma": ".",
+        "sentence_id": 8,
+        "relation": "",
+        "ner": "",
+        "dependency_tree": "-\u003e ./. (root)\n"
+      }
+    ],
+    "corref": "",
+    "doc_id": "nigeria_desertherald20171031.0001"
+  },
+  "ref_id": {
+    "$oid": "59f7fea6de7923402a8a5d56"
+  },
+  "processed": "True",
+  "petrarch": {
+    "nigeria_desertherald20171031##0001": {
+      "sents": {
+        "1": {
+          "content": "BY OBUTE JAMES  President Muhammadu Buhari on Monday October 23, ordered the immediate disengagement of the former Chairman of the Presidential Task Force on Pension Reforms, Mr. Abdulrasheed Maina who was recently recalled.",
+          "parsed": "(FRAG (S (PP (IN BY )  (NP (NP (NNP OBUTE )  (NNP JAMES )  (NNP PRESIDENT )  (NNP MUHAMMADU )  (NNP BUHARI )  )  (PP (IN ON )  (NP (NNP MONDAY )  (NNP OCTOBER )  (CD 23 )  )  )  )  )  (, , )  (VP (VBD ORDERED )  (NP (NP (DT THE )  (JJ IMMEDIATE )  (NN DISENGAGEMENT )  )  (PP (IN OF )  (NP (NP (DT THE )  (JJ FORMER )  (NNP CHAIRMAN )  )  (PP (IN OF )  (NP (NP (DT THE )  (NNP PRESIDENTIAL )  (NNP TASK )  (NNP FORCE )  )  (PP (IN ON )  (NP (NNP PENSION )  (NNS REFORMS )  )  )  )  )  )  )  )  )  )  (, , )  (NP (NP (NNP MR. )  (NNP ABDULRASHEED )  (NNP MAINA )  )  (SBAR (WHNP (WP WHO )  )  (S (VP (VBD WAS )  (ADVP (RB RECENTLY )  )  (VP (VBN RECALLED )  )  )  )  )  )  (. . )  )  "
+        },
+        "3": {
+          "content": "The Special Adviser to the President on Media and Publicity, Mr. Femi Adesina, disclosed this in a statement on Monday.",
+          "parsed": "(S (NP (NP (NP (DT THE )  (JJ SPECIAL )  (NNP ADVISER )  )  (PP (TO TO )  (NP (NP (DT THE )  (NNP PRESIDENT )  )  (PP (IN ON )  (NP (NNP MEDIA )  (CC AND )  (NNP PUBLICITY )  )  )  )  )  )  (, , )  (NP (NNP MR. )  (NNP FEMI )  (NNP ADESINA )  )  (, , )  )  (VP (VBD DISCLOSED )  (NP (DT THIS )  )  (PP (IN IN )  (NP (DT A )  (NN STATEMENT )  )  )  (PP (IN ON )  (NP (NNP MONDAY )  )  )  )  (. . )  )  "
+        },
+        "2": {
+          "content": "Maina who is on the wanted list of the Economic and Financial Crimes commission, EFCC was recently recalled and deployed to the Ministry of Interior.",
+          "parsed": "(S (NP (NP (NNP MAINA )  )  (SBAR (WHNP (WP WHO )  )  (S (VP (VBZ IS )  (PP (IN ON )  (NP (NP (DT THE )  (JJ WANTED )  (NN LIST )  )  (PP (IN OF )  (NP (NP (DT THE )  (NNP ECONOMIC )  )  (CC AND )  (NP (NNP FINANCIAL )  (NNP CRIMES )  (NN COMMISSION )  )  )  )  )  )  )  )  )  )  (, , )  (NP (NN EFCC )  )  (VP (VBD WAS )  (ADVP (RB RECENTLY )  )  (VP (VBN RECALLED )  (CC AND )  (VP (VBN DEPLOYED )  (PP (TO TO )  (NP (NP (DT THE )  (NNP MINISTRY )  )  (PP (IN OF )  (NP (NNP INTERIOR )  )  )  )  )  )  )  )  (. . )  )  "
+        },
+        "5": {
+          "content": "The statement read, “President Muhammadu Buhari has directed the immediate disengagement from service of Mr Abdullahi Abdulrasheed Maina, former chairman of the Presidential Task Force on Pension Reforms.",
+          "parsed": "(S (NP (DT THE )  (NN STATEMENT )  )  (VP (VBD READ )  (, , )  (S (`` `` )  (NP (NNP PRESIDENT )  (NNP MUHAMMADU )  (NNP BUHARI )  )  (VP (VBZ HAS )  (VP (VBN DIRECTED )  (NP (DT THE )  (JJ IMMEDIATE )  (NN DISENGAGEMENT )  )  (PP (IN FROM )  (NP (NP (NN SERVICE )  )  (PP (IN OF )  (NP (NP (NNP MR )  (NNP ABDULLAHI )  (NNP ABDULRASHEED )  (NNP MAINA )  )  (, , )  (NP (NP (JJ FORMER )  (NN CHAIRMAN )  )  (PP (IN OF )  (NP (NP (DT THE )  (NNP PRESIDENTIAL )  (NNP TASK )  (NNP FORCE )  )  (PP (IN ON )  (NP (NNP PENSION )  (NNS REFORMS )  )  )  )  )  )  )  )  )  )  )  )  )  )  (. . )  )  "
+        },
+        "4": {
+          "content": "Adesina said Buhari has also directed the Head of Civil Service of the Federation, Mrs. Winifred Oyo-Ita, to submit a report on the circumstances surrounding Maina’s reinstatement to his Chief of Staff, Abba Kyari, before the close of work.",
+          "parsed": "(S (NP (NNP ADESINA )  )  (VP (VBD SAID )  (SBAR (S (NP (NNP BUHARI )  )  (VP (VBZ HAS )  (ADVP (RB ALSO )  )  (VP (VBN DIRECTED )  (NP (NP (DT THE )  (NNP HEAD )  )  (PP (IN OF )  (NP (NP (NNP CIVIL )  (NNP SERVICE )  )  (PP (IN OF )  (NP (NP (DT THE )  (NNP FEDERATION )  )  (, , )  (NP (NNP MRS. )  (NNP WINIFRED )  (NNP OYO-ITA )  )  (, , )  )  )  )  )  )  (S (VP (TO TO )  (VP (VB SUBMIT )  (NP (NP (DT A )  (NN REPORT )  )  (PP (IN ON )  (NP (NP (DT THE )  (NNS CIRCUMSTANCES )  )  (VP (VBG SURROUNDING )  (NP (NP (NNP MAINA )  (POS 'S )  )  (NN REINSTATEMENT )  )  (PP (TO TO )  (NP (NP (PRP$ HIS )  (NNP CHIEF )  )  (PP (IN OF )  (NP (NP (NNP STAFF )  )  (, , )  (NP (NNP ABBA )  (NNP KYARI )  )  )  )  (, , )  )  )  (PP (IN BEFORE )  (NP (NP (DT THE )  (NN CLOSE )  )  (PP (IN OF )  (NP (NN WORK )  )  )  )  )  )  )  )  )  )  )  )  )  )  )  )  )  (. . )  )  "
+        },
+        "6": {
+          "content": "“In a memo to the Head of the Civil Service of the Federation, the President equally demanded a full report of the circumstances of Maina’s recall and posting to the Ministry of Interior.",
+          "meta": {
+            "nouns": [
+              [
+                [
+                  "PRESIDENT"
+                ],
+                [
+                  "~GOV"
+                ],
+                [
+                  [
+                    "~"
+                  ]
+                ]
+              ],
+              [
+                [
+                  "MINISTRY OF INTERIOR"
+                ],
+                [
+                  "~GOV"
+                ],
+                [
+                  [
+                    "~"
+                  ]
+                ]
+              ]
+            ],
+            "nouns_not_matched": [
+              "MAINA",
+              "RECALL",
+              "THE",
+              "CIRCUMSTANCES",
+              "A",
+              "REPORT",
+              "FULL",
+              "INTERIOR",
+              "THE",
+              "MINISTRY",
+              "A",
+              "FULL",
+              "OF",
+              "RECALL",
+              "REPORT",
+              "MAINA",
+              "THE",
+              "CIRCUMSTANCES"
+            ],
+            "---GOV__---GOV__100": [
+              [
+                "DEMANDED"
+              ]
+            ],
+            "eventtext": {
+              "---GOV__---GOV__100": "demanded"
+            },
+            "actorroot": {
+              "---GOV__---GOV__100": [
+                "",
+                ""
+              ]
+            },
+            "actortext": {
+              "---GOV__---GOV__100": [
+                "resident",
+                "resident"
+              ]
+            }
+          },
+          "parsed": "(S (`` `` )  (PP (IN IN )  (NP (NP (DT A )  (NN MEMO )  )  (PP (TO TO )  (NP (NP (DT THE )  (NNP HEAD )  )  (PP (IN OF )  (NP (NP (DT THE )  (NNP CIVIL )  (NNP SERVICE )  )  (PP (IN OF )  (NP (DT THE )  (NNP FEDERATION )  )  )  )  )  )  )  )  )  (, , )  (NP (DT THE )  (NNP PRESIDENT )  )  (ADVP (RB EQUALLY )  )  (VP (VBD DEMANDED )  (NP (NP (NP (DT A )  (JJ FULL )  (NN REPORT )  )  (PP (IN OF )  (NP (NP (DT THE )  (NNS CIRCUMSTANCES )  )  (PP (IN OF )  (NP (NP (NNP MAINA )  (POS 'S )  )  (NN RECALL )  )  )  )  )  )  (CC AND )  (VP (VBG POSTING )  (PP (TO TO )  (NP (NP (DT THE )  (NNP MINISTRY )  )  (PP (IN OF )  (NP (NNP INTERIOR )  )  )  )  )  )  )  )  (. . )  )  ",
+          "events": [
+            [
+              "---GOV",
+              "---GOV",
+              "100"
+            ]
+          ]
+        }
+      },
+      "meta": {
+        "date": "20171023",
+        "headline": "Buhari Orders Immediate Disengagement of Ex-Pension’s Boss, Maina, Queries Head of Service",
+        "verbs": {
+          "nouns": [
+            [
+              [
+                "PRESIDENT"
+              ],
+              [
+                "~GOV"
+              ],
+              [
+                [
+                  "~"
+                ]
+              ]
+            ],
+            [
+              [
+                "MINISTRY OF INTERIOR"
+              ],
+              [
+                "~GOV"
+              ],
+              [
+                [
+                  "~"
+                ]
+              ]
+            ]
+          ],
+          "nouns_not_matched": [
+            "MAINA",
+            "RECALL",
+            "THE",
+            "CIRCUMSTANCES",
+            "A",
+            "REPORT",
+            "FULL",
+            "INTERIOR",
+            "THE",
+            "MINISTRY",
+            "A",
+            "FULL",
+            "OF",
+            "RECALL",
+            "REPORT",
+            "MAINA",
+            "THE",
+            "CIRCUMSTANCES"
+          ],
+          "---GOV__---GOV__100": [
+            [
+              "DEMANDED"
+            ]
+          ],
+          "eventtext": {
+            "---GOV__---GOV__100": "demanded"
+          },
+          "actorroot": {
+            "---GOV__---GOV__100": [
+              "",
+              ""
+            ]
+          },
+          "actortext": {
+            "---GOV__---GOV__100": [
+              "resident",
+              "resident"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
