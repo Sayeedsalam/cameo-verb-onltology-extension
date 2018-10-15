@@ -1,6 +1,8 @@
 Each line is a JSON object, the entire file is not JSON array.
 read line-by-line and convert each-line with python's json module
 
+each record has a field either "petrarch" or "petrarch_ud", that contains the output of corresponding event coder.
+So re-encoding will not be required.
 
 Sample of 2500 processed stories with only CoreNLP parse and Petrarch Output
 https://utdallas.box.com/s/fr69sgvq2c1aalkgsvdnh99528pat8uz
